@@ -18,3 +18,6 @@ For developer:
   Additionally, you may refer to WordNet documentation provided by Princeton University to include or remove more relations.
   
 To run the program:
+  Open terminal from the Derivationally_Related_Words folder and in the terminal type the following:
+      python DevRelWords.py
+  
