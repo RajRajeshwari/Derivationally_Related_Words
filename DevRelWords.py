@@ -3,13 +3,13 @@ import os
 import re
 
 #files on which we are reading
-n_data = open('/home/rajrajeshwari/Desktop/derivationallyRelatedWords/data.noun','r').readlines()
-v_ind = open('/home/rajrajeshwari/Desktop/derivationallyRelatedWords/index.verb','r').readlines()
-a_ind = open('/home/rajrajeshwari/Desktop/derivationallyRelatedWords/index.adj','r').readlines()
-ad_ind = open('/home/rajrajeshwari/Desktop/derivationallyRelatedWords/index.adv','r').readlines()
+n_data = open('/DerivationallyRelatedWords/data.noun','r').readlines()
+v_ind = open('/DerivationallyRelatedWords/index.verb','r').readlines()
+a_ind = open('/DerivationallyRelatedWords/index.adj','r').readlines()
+ad_ind = open('/DerivationallyRelatedWords/index.adv','r').readlines()
 
 #file in which the final output is stored
-dev_wd = open('/home/rajrajeshwari/Desktop/derivationallyRelatedWords/Dev_Words.dic','w')
+dev_wd = open('/DerivationallyRelatedWords/Dev_Words.dic','w')
 #other temporary variables used are:
     # i, i1, i2, i3 - iterators
     # verbs_sub, adj_sub, adv_sub - to hold results from regex findall operations
